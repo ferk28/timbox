@@ -59,7 +59,7 @@
                                     <a class="dropdown-item" href="{{ route('config') }}">
                                         {{ __('Configuración') }}
                                     </a>
-                                    <a class="dropdown-item" href="{{ route('logout') }}">
+                                    <a class="dropdown-item" href="{{ route('word') }}">
                                         {{ __('Algoritmos') }}
                                     </a>
                                     <a class="dropdown-item" href="{{ route('password') }}">

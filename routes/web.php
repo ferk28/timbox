@@ -22,3 +22,5 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/config', 'HomeController@config')->name('config');
 Route::get('/password', 'HomeController@password')->name('password');
+Route::get('/word', 'WordController@create')->name('word');
+Route::resource('words', 'WordController');
