@@ -35,7 +35,20 @@ class WordController extends Controller
      */
     public function store(Request $request)
     {
-        $data = 
+        $data =
+//            SELECT DISTINCT Office_Code AS Palindrome_Office_Code FROM Employee
+//WHERE REVERSE(Office_Code) IN
+//    (SELECT Office_Code FROM Employee);
+
+
+//            [precode]
+//
+//SET @PalinString = ‘Was it a car or a cat I saw’;
+//SELECT CASE WHEN
+//REPLACE(@PalinString, ‘ ‘, ”) = REVERSE(REPLACE(@PalinString, ‘ ‘, ”)) THEN ‘Palindrome’
+//ELSE ‘Not Palindrome’ END AS Answer
+//
+//    [/precode]
     }
 
     /**
